@@ -11,6 +11,6 @@ if food%time[-1] !=0:
     
 else:
     for i in time:
-        print('%d' %(food//i)
+        print('%d' %(food//i))
         if food >=i:
             food -= i        
